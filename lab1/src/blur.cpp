@@ -143,7 +143,6 @@ int large_gauss_test(int argc, char **argv) {
     int n_channels = in_file_info.channels;
     int n_frames = in_file_info.frames;
 
-
 #else
     // If we're using random data instead of audio data, we can control the size
     // of our input signal, and use the "channels" parameter to control how many
